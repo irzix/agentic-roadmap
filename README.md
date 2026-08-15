@@ -6,7 +6,7 @@ Agentic development is still a relatively new field, but many useful articles an
 
 ## 1. Foundations
 
-- How do LLMs work?
+- [How Do LLMs Work?](./01-foundation/how-llm-works.md)
 - What is an Agent?
 - What is a Workflow?
 - What is the difference between a Workflow and an Agent?
