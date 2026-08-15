@@ -10,7 +10,7 @@ Agentic development is still a relatively new field, but many useful articles an
 - [What is an Agent?](./01-foundation/02-what-is-agent.md)
 - [What is State?](./01-foundation/03-what-is-state.md)
 - [What is Memory?](./01-foundation/04-what-is-memory.md)
-- What is Knowledge?
+- [What is Knowledge?](./01-foundation/05-what-is-knowledge.md)
 - What is a Chunk?
 - What is the Agent Lifecycle?
 
