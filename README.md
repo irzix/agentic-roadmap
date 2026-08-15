@@ -6,7 +6,7 @@ Agentic development is still a relatively new field, but many useful articles an
 
 ## 1. Foundations
 
-- [How Do LLMs Work?](./01-foundation/01-how-llm-works.md)
+- [How do LLMs work?](./01-foundation/01-how-llm-works.md)
 - [What is an Agent?](./01-foundation/02-what-is-agent.md)
 - What is State?
 - What is Memory?
