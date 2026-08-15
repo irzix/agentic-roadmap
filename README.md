@@ -1,5 +1,9 @@
 # Agent Development Roadmap
 
+In this repository, I'm going to explain the fundamentals of agent development using general-purpose programming languages and real-world examples based on my own projects.
+My goal is to create easy-to-follow learning content and videos based on practical examples, covering a complete series on agent development. The goal is to help programmers understand how to build agentic systems and make the right engineering trade-offs.
+Agentic development is still a relatively new field, but many useful articles and resources have already been published. Throughout this repository, I'll try to reference relevant resources and research as I build and explain each topic.
+
 ## 1. Foundations
 
 - How do LLMs work?
