@@ -8,6 +8,25 @@ An Agent adds things around the LLM:
 
 Imagine an automated workflow, Agent is really look like a flow with a big different thing: Agents have a non-deterministic flow but automations have a deterministic flow which is why Agents useful when we don't have a predfined path.
 
+## Agent vs. Workflow
+
+An Agent can look like an automated workflow, but there is one key difference: **who decides what happens next?**
+
+In a workflow, the developer defines the execution path:
+
+`File → Extract → Count Words → If > 300 → Good Article`
+
+In an Agent, the developer defines the goal, while the Agent dynamically decides the next action based on its goal, state, and observations:
+
+`Goal → Decide → Act → Observe → Decide → ...`
+
+So:
+
+- **Workflow:** Developer controls the flow.
+- **Agent:** Agent dynamically controls the flow.
+
+This makes Agents useful when the path to the goal cannot be fully predefined.
+
 ## What Makes a System an Agent?
 
 There is no single universal definition, but an Agent usually has these characteristics:
