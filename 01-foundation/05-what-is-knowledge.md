@@ -71,4 +71,6 @@ A useful mental model is:
 
 `Knowledge → Retrieve → Context → LLM → Decision`
 
+![Knowledge & Retrieval in Agentic Systems](../assets/agentic-knowledge-flow.jpeg)
+
 > **Knowledge describes what is known about a domain or the world, while Context is the information available to the LLM at a specific point in an execution.**

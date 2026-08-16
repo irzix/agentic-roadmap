@@ -69,6 +69,8 @@ Memory can be classified in different ways.
 These categories are not mutually exclusive. For example, semantic or episodic memories can be stored as long-term memory.
 These categories can overlap depending on the system design.
 
+![Agent Memory Architecture](../assets/agentic-memory-architecture.jpeg)
+
 ## Memory Is Not Knowledge
 
 Memory and Knowledge are also different.

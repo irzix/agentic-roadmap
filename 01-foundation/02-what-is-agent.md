@@ -19,6 +19,8 @@ There is no single universal definition, but an Agent usually has these characte
 - **Observation** — the information or result the Agent receives after taking an action and uses to decide what to do next.
 - **Iteration** — it can perform multiple steps instead of generating a single response. This allows the Agent to evaluate the outcome of its actions and decide whether to continue or finish.
 
+![Agentic System Flow](../assets/agentic-system-flow.jpeg)
+
 For example, consider a simple customer support Agent.
 
 The user says:

@@ -65,6 +65,8 @@ Some parts of the State may be included in the Context, but they are not the sam
 
 `State → Select relevant information → Context → LLM`
 
+![State in Agentic Systems](../assets/agentic-state-flow.jpeg)
+
 
 ## Why Is State Important?
 
