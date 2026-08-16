@@ -13,12 +13,11 @@ Imagine an automated workflow, Agent is really look like a flow with a big diffe
 There is no single universal definition, but an Agent usually has these characteristics:
 
 - **Goal** — something the Agent is trying to achieve, such as creating a landing page.
-- **Decision Making** — it can decide what action to take. Some decisions can be deterministic, while others can be LLM-based.
+- **Decision Making** — it can decide what action to take based on its goal, current state, and observations. Some decisions can be deterministic, while others can be LLM-based.
 - **Tools** — capabilities the Agent can invoke, such as external systems, internal functions, APIs, or MCP tools.
 - **State** — the current state of the Agent during execution. This is not simply the history of actions.
-- **Observation** — the information or result the Agent receives after taking an action.
-- **Evaluation** — it can evaluate whether the current outcome is good enough to achieve the goal.
-- **Iteration** — it can continue taking actions when the goal has not yet been achieved.
+- **Observation** — the information or result the Agent receives after taking an action and uses to decide what to do next.
+- **Iteration** — it can perform multiple steps instead of generating a single response. This allows the Agent to evaluate the outcome of its actions and decide whether to continue or finish.
 
 For example, consider a simple customer support Agent.
 
@@ -28,14 +27,14 @@ The user says:
 
 The Agent might:
 
-`User Request` → `Understand Goal` → `Decide Action` → `Call Order API` → `Observe Result` → `Evaluate`
+`User Request` → `Understand Goal` → `Decide Action` → `Call Order API` → `Observe Result` → `Decide What to Do Next`
 
-If the result is sufficient, the Agent can finish:
+If the information is sufficient, the Agent finishes:
 
-`Evaluate` → `Goal Achieved` → `Respond`
+`Decide` → `Respond`
 
-If it is not sufficient, it can continue:
+If it is not, the Agent can continue:
 
-`Evaluate` → `Not Enough` → `Decide Again` → `Take Action` → `Observe` → `Evaluate` → `...`
+`Decide` → `Take Another Action` → `Observe` → `Decide` → `...`
 
-The important part is that the Agent is not simply generating an answer. It is **deciding, acting, observing, and evaluating based on the current state and available information**.
+The important part is that the Agent is not simply generating an answer. It is **deciding, acting, observing, and iterating based on its goal, current state, and available information**.
