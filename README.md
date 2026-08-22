@@ -25,14 +25,15 @@ Agentic development is still a relatively new field, but many useful articles an
 
 ## 3. Agent Architecture
 
-- What is an Agent Flow?
-- What is Agent Orchestration?
-- Agent Flow vs. Orchestration
-- Nodes and Edges
-- What are Subagents?
-- Types of Subagents
+- What is Agent Architecture?
+- Agent State
+- Agent Context
+- Agent Memory
+- Agent Orchestration
+- Single-Agent vs. Multi-Agent
 - Agent Delegation
-- Trade-offs of different Nodes and Subagents
+- Subagents
+- Common Agent Architectures
 
 ## 4. Context Engineering
 
