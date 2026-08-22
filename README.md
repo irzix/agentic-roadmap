@@ -21,7 +21,7 @@ Agentic development is still a relatively new field, but many useful articles an
 - [Tool Calling vs. MCP](./02-tools/03-tool-vs-mcp.md)
 - [Tool Design & Schemas](./02-tools/04-tool-design.md)
 - [MCP Discovery](./02-tools/05-mcp-discovery.md)
-- 
+
 
 ## 3. Agent Architecture
 
