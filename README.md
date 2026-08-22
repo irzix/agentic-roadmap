@@ -19,8 +19,10 @@ Agentic development is still a relatively new field, but many useful articles an
 - How does Tool Calling work?
 - What is MCP and how does it work?
 - Tool Calling vs. MCP
+- Tool Design & Schemas
 - Deterministic Conditions
-- Structured Output
+- Structured Outputs
+- Tool Reliability & Error Handling
 
 ## 3. Agent Architecture
 
