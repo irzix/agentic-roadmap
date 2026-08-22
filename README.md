@@ -25,15 +25,13 @@ Agentic development is still a relatively new field, but many useful articles an
 
 ## 3. Agent Architecture
 
-- What is Agent Architecture?
-- Agent State
-- Agent Context
-- Agent Memory
-- Agent Orchestration
-- Single-Agent vs. Multi-Agent
-- Agent Delegation
-- Subagents
-- Common Agent Architectures
+- [What is Agent Architecture?](./03-agent-architecture/01-what-is-agent-architecture.md)
+- [Agent State](./03-agent-architecture/02-agent-state.md)
+- [Agent Context](./03-agent-architecture/03-agent-context.md)
+- [Agent Memory](./03-agent-architecture/04-agent-memory.md)
+- [Agent Orchestration](./03-agent-architecture/05-agent-orchestration.md)
+- [Single-Agent vs. Multi-Agent](./03-agent-architecture/06-what-is-multi-agent.md)
+- [Common Agent Architectures](./03-agent-architecture/07-common-architectures.md)
 
 ## 4. Context Engineering
 
